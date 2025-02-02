@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADV Martial Arts Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the page */
+        .hero-bg {
+            background-image: url('https://i.imgur.com/n9N9DMZ.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-900 text-white p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold">ADV Martial Arts Academy</a>
+            <div>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+                    <li><a href="#schedule" class="hover:text-gray-300">Schedule</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                    <li><a href="#portfolio" class="hover:text-gray-300">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-96 flex items-center justify-center text-white text-center bg-opacity-50">
+        <div>
+            <h1 class="text-5xl font-bold">Welcome to ADV Martial Arts Academy</h1>
+            <p class="mt-4 text-xl">Get trained with the Professional Karate Master with 15+ years of experience</p>
+            <a href="#services" class="mt-6 inline-block bg-orange-500 text-white py-2 px-6 rounded-lg text-xl">Learn More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-xl text-gray-600 mb-8">We are dedicated to helping individuals achieve their personal best through the art of martial arts.</p>
+            <p class="text-xl text-gray-600 mb-8">Our head instructor, Sensei Venkatesh B L, has over 15+ years of experience in Karate training and has been recognized by multiple national and international organizations.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Services We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Self-Defense</h3>
+                    <p class="text-lg text-gray-600">Learn techniques to protect yourself in real-life situations. We focus on basic strikes, blocks, and scenario practices.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Karate-Kata</h3>
+                    <p class="text-lg text-gray-600">Master the traditional patterns of movements that form the foundation of Karate, helping you develop balance, coordination, and focus.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Karate-Kumite</h3>
+                    <p class="text-lg text-gray-600">Engage in controlled sparring sessions to improve your combat skills, timing, and adaptability in a safe environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Schedule Section -->
+    <section id="schedule" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Class Hours</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">NTPS School Premises, Yelahanka New Town</h3>
+                    <ul class="text-lg text-gray-600">
+                        <li>Monday to Wednesday: 5:30 PM - 6:30 PM</li>
+                        <li>Friday: 5:30 PM - 6:30 PM</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">St. Philomena's English School Premises, Doddabommasandra</h3>
+                    <ul class="text-lg text-gray-600">
+                        <li>Thursday: 5:30 PM - 6:30 PM</li>
+                        <li>Saturday: 5:30 PM - 6:30 PM</li>
+                        <li>Sunday: 8:30 AM - 9:30 AM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="text-xl text-gray-600 mb-8">Have questions? Reach out to us and we’ll be happy to assist you.</p>
+            <form action="#" method="POST" class="max-w-lg mx-auto space-y-4">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg">
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg">
+                <textarea name="message" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded-lg h-32"></textarea>
+                <button type="submit" class="w-full bg-orange-500 text-white py-3 px-6 rounded-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sensei Deepak's Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Chief Instructors</h2>
+            <h3 class="text-2xl font-semibold mb-4">Sensei Deepak</h3>
+            <p class="text-lg text-gray-600 mb-8">Explore the detailed portfolio of Sensei Deepak, an internationally certified coach.</p>
+            <a href="https://github.com/your-github-link" target="_blank" class="inline-block bg-orange-500 text-white py-2 px-6 rounded-lg text-xl">View Sensei Deepak's Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>&copy; 2025 ADV Martial Arts Academy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
